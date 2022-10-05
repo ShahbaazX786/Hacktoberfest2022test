@@ -1,8 +1,10 @@
 import { Express } from "express";
 const app = Express();
 
-app.get('/',function(req,res){
-  res.send('Hellow Client");
+PORT = 3000;
+
+app.get("/" , (req , res) => {
+   res.send("server pages are also visible bro");
 });
 
-app.listen(3000,'server started bro');
+app.listen(PORT,`server started bro on ${PORT} `);
