@@ -4,6 +4,10 @@ body,html{
     box-sizing: border-box;
 }
 
-h1,h2{
-  font-family:"Montserrat",sans-serif;
+h1{
+    font-size:38px;
+}
+.text{
+    font-family:"Montserrat",sans-serif;
+    font-size:14px;
 }
